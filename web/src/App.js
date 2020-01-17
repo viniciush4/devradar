@@ -9,6 +9,19 @@ import './Main.css'
 import DevForm from './components/DevForm'
 import DevItem from './components/DevItem'
 
+// React:
+// Componente, estado, propriedade
+
+// Componente (App): 
+// Um bloco isolado de código que não interfere no restante da aplicação. 
+// Uma função que retorna um HTML, ou CSS, ou JS
+
+// Propriedade (title):
+// Informações que um componemte pai passa para o componente filho (pode ser string, funções, variáveis...)
+
+// Estado: 
+// Informações mantidas pelo componente (Lembrar: imutabilidade)
+
 function App() {
   const [ devs, setDevs ] = useState([])
 

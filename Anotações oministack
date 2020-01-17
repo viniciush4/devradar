@@ -1,0 +1,67 @@
+
+ANOTAÇÕES
+
+
+DIA 1 - APRESENTAÇÃO
+
+// Instalação do yarn, node, npm, vscode
+
+
+DIA 2 - API
+
+
+
+
+DIA 3 - WEB
+
+// Cria o projeto usando yarn
+yarn create react-app web
+
+// Inicia o projeto
+sudo yarn start
+
+// Excluiu arquivos desnecessários
+
+// Conceito de componente, estado, propriedade
+
+// <> </>   <--- fragment: serve para não precisar utilizar uma 
+// div para envolver componentes iguais no return da função
+
+para usar o conceito de estado:
+import React, { useState } from 'react';
+const [ counter, setCounter ] = useState(0) 
+// 0 é o valor inicial
+// setSatate é a função que atualiza o estado da 
+
+
+// Construção da estrutura e estilização
+
+
+
+
+DIA 4 - MOBILE
+
+// Instalação do expo-cli globalmente
+yarn global add expo-cli
+// adicionar a variável PATH no arquivo .bashrc:
+# Adiciona as variáveis de ambiente do Expo
+export PATH="$(yarn global bin):$PATH"
+
+// Criação do projeto com expo
+expo init mobile
+
+// inicia o projeto
+cd mobile
+yarn start
+
+// apresentação mudando o fundo para roxo
+
+// instalação do react navigation e navegação por pilhas
+yarn add react-navigation
+
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context
+
+yarn add react-navigation-satck
+
+
+
